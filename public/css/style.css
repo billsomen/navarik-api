@@ -1,0 +1,103 @@
+body {
+    font-family: Futura,serif;
+}
+
+div .body-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+div .zoo-wrapper {
+    display:flex;
+    border-radius: 10px;
+    flex-direction: column;
+    margin: auto; width: 800px;
+    height: 561px;
+    background-image: url("../img/zoo-background.jpg");
+}
+
+div .actions-wrapper {
+    margin: auto;
+    display: flex;
+    width: 600px;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+div .animal-type-wrapper {
+    height: 187px;
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+div .animal-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-animal {
+    height: 95px;
+    margin: auto;
+}
+
+button {
+    font-family: Futura,serif;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+}
+
+button:hover {
+    opacity: 90%;
+}
+
+.btn-white {
+    background-color: white;
+    color: darkblue;
+    border: 1px solid darkblue;
+}
+
+.btn-white:hover{
+    background-color: #3f3fa5;
+    color: white;
+}
+
+.btn-disabled {
+    background-color: lightgray;
+    border: 1px solid gray;
+    color: black;
+    cursor: default;
+}
+
+.text-blue {
+    color: darkblue;
+}
+
+.text-small {
+    font-size: .8em;
+}
+
+.primary-text {
+    border-radius: 5px;
+    color: white;
+    padding: 2px;
+    margin: auto;
+    background-color: darkblue;
+}
+
+.secondary-text {
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: .7em;
+}
