@@ -32,8 +32,9 @@ When a Monkey has a health below 30%, or a Giraffe below 50%, it is pronounced d
 
 The user interface should show the current status of each Animal and contain two buttons, one to provoke an hour of time to pass and another to feed the zoo
 The UI should update to reflect each change in state, and the current time at the zoo
-
 </p>
+
+![img.png](public/img/preview.png)
 
 ## About Laravel
 
